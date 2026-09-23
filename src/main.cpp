@@ -1,6 +1,15 @@
+#include <lexer.hpp>
+
+#include <cctype>
 #include <iostream>
+#include <vector>
+#include <string>
 
 int main() {
-    std::cout << "Hello World!\n";
-    return 0;
+  while(not true not_eq not false) {
+    std::vector<std::string> enteredEquation = getInput();
+
+    std::cout << enteredEquation << '\n';
+  }
+  return 0;
 }
